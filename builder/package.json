@@ -1,12 +1,12 @@
 {
-  "name": "factory-method-example",
+  "name": "builder-example",
   "version": "1.0.0",
   "description": "Exemplos de Design Patterns em JavaScript",
   "main": "practiceIndex.js",
   "type": "module",
   "scripts": {
     "start": "node practiceIndex.js",
-    "problem": "node praticeProblem.js"
+    "problem": "node practiceProblem.js"
   },
   "author": "Ugioni",
   "license": "MIT"
