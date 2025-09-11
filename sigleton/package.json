@@ -1,0 +1,13 @@
+{
+    "name": "singleton-example",
+    "version": "1.0.0",
+    "description": "Exemplos de Design Patterns em JavaScript",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node practiceIndex.js",
+      "problem": "node practiceProblem.js"
+    },
+    "author": "Ugioni",
+    "license": "MIT"
+  }
