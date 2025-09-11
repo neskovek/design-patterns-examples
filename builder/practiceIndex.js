@@ -54,6 +54,10 @@ class CarBuilder {
         this.car.gps = gps;
         return this;
     }
+
+    build() {
+        return this.car;
+    }
 }
 
 class CarDirector {
@@ -65,6 +69,7 @@ class CarDirector {
             .setGps(true)
             .setModel('Ferrari V3')
             .setYear('2025')
+            .build();
     }
 
     static buildCityCar() {
@@ -75,6 +80,7 @@ class CarDirector {
             .setGps(true)
             .setModel('onix')
             .setYear('2023')
+            .build();
     }
 }
 
